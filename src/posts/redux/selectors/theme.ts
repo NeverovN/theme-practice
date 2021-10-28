@@ -1,3 +1,4 @@
+// types
 import {IThemeReducerState} from '../../types/reducer';
 
 const getRoot = (state: any): IThemeReducerState => {

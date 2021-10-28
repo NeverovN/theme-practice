@@ -1,3 +1,4 @@
+// types
 import {IPost} from '../types/post';
 
 export const mapDataToPosts = (data: any[]): IPost[] => {
@@ -31,5 +32,5 @@ export const mapDataToPosts = (data: any[]): IPost[] => {
     } as IPost;
   });
 
-  return mappedData.filter(Boolean);
+  return mappedData.filter(Boolean) as IPost[];
 };

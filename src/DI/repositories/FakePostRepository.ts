@@ -3,7 +3,7 @@ import {mapDataToPosts} from '../../posts/utils/mapDataToPosts';
 import {validateData} from '../../posts/utils/validateData';
 
 // const
-import {FAKE_POSTS} from '../constants/fakePosts';
+import {FAKE_POSTS} from '../data/fakePosts';
 
 // types
 import {PostRepositoryInterface} from '../types/types';

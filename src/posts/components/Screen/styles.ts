@@ -1,7 +1,6 @@
 import {StyleSheet} from 'react-native';
 
+// for the future
 export default StyleSheet.create({
-  screenStyle: {
-    // paddingHorizontal: 10,
-  },
+  screenStyle: {},
 });

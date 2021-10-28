@@ -1,9 +1,12 @@
 import {createReducer} from '@reduxjs/toolkit';
 
+// types
+import {IThemeReducerState} from '../../types/reducer';
+
 // actions
 import {ThemeActions} from '../actions/theme';
 
-const initialState = {
+const initialState: IThemeReducerState = {
   theme: 'light',
 };
 

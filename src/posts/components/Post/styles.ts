@@ -9,6 +9,5 @@ export default StyleSheet.create({
   },
   bodyTextStyle: {
     fontSize: 15,
-    color: 'gray',
   },
 });

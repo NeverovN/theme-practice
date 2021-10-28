@@ -1,11 +1,15 @@
 import {createReducer} from '@reduxjs/toolkit';
-import {IPostReducerState} from '../../types/reducer';
+
+// utils
 import {normalize} from '../../utils/normalize';
+
+// types
+import {IPostReducerState} from '../../types/reducer';
 
 // actions
 import {PostReducerActions, success, error} from '../actions/post';
 
-const initialState = {
+const initialState: IPostReducerState = {
   loading: false,
   error: null,
   data: {

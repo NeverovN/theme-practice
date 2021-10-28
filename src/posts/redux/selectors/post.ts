@@ -1,3 +1,4 @@
+// types
 import {IPost} from '../../types/post';
 import {IPostReducerState} from '../../types/reducer';
 

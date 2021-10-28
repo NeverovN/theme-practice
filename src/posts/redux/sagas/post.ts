@@ -6,6 +6,8 @@ import {PostReducerActions} from '../actions/post';
 
 // DI
 import {DependencyManager} from '../../../DI';
+
+// types
 import {IPost} from '../../types/post';
 
 export function* watchRequest() {

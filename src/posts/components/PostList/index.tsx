@@ -12,6 +12,8 @@ import PostListView from './view';
 
 const PostListContainer: React.FC = () => {
   const dispatch = useDispatch();
+  const data = useSelector(getPostIds);
+
   const isRefreshing = useSelector(getLoading);
   const onRefresh = () => {
     dispatch(PostReducerActions.REQUEST());
@@ -21,7 +23,6 @@ const PostListContainer: React.FC = () => {
     dispatch(PostReducerActions.REQUEST());
   }, [dispatch]);
 
-  const data = useSelector(getPostIds);
   return (
     <PostListView data={data} refreshing={isRefreshing} onRefresh={onRefresh} />
   );

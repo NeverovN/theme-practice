@@ -1,6 +1,7 @@
 import {call, all, spawn, takeLatest} from 'redux-saga/effects';
 import {StatusBar} from 'react-native';
 
+// actions
 import {THEME_ACTIONS} from '../constants/actions';
 import {ThemeActions} from '../actions/theme';
 
