@@ -26,7 +26,7 @@ export const mapDataToPosts = (data: any[]): IPost[] => {
 
     return {
       id: Number(el.id),
-      userID: Number(el.userId),
+      userId: Number(el.userId),
       title: el.title,
       body: el.body,
     } as IPost;
