@@ -1,6 +1,6 @@
 import React from 'react';
 import {useSelector} from 'react-redux';
-import {withStyles} from '../../../theme/hocs/withStyles';
+import {withStyles} from '../../../common/hocs/withStyles';
 import {getPostById} from '../../redux/selectors/post';
 
 // types

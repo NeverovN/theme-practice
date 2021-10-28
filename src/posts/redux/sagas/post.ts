@@ -2,7 +2,7 @@ import {takeLatest, put, spawn, all, call, delay} from 'redux-saga/effects';
 
 // const
 import {PostActionNames} from '../constants/actions';
-import {PostReducerActions} from '../actions';
+import {PostReducerActions} from '../actions/post';
 
 // DI
 import {DependencyManager} from '../../../DI';

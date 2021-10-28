@@ -1,5 +1,5 @@
 import React from 'react';
-import {withStyles} from '../../../theme/hocs/withStyles';
+import {withStyles} from '../../../common/hocs/withStyles';
 
 // view
 import ScreenView from './view';

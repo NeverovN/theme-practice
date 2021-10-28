@@ -6,7 +6,7 @@ import {IPost} from '../../types/post';
 
 // container
 import PostContainer from '../Post/index';
-import ThemeButton from '../../../theme/components/ThemeButton/index';
+import ThemeButton from '../ThemeButton/index';
 
 interface IPostListViewProps {
   data: IPost['id'][];

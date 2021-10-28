@@ -3,7 +3,7 @@ import {IPostReducerState} from '../../types/reducer';
 import {normalize} from '../../utils/normalize';
 
 // actions
-import {PostReducerActions, success, error} from '../actions/index';
+import {PostReducerActions, success, error} from '../actions/post';
 
 const initialState = {
   loading: false,

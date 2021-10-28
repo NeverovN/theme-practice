@@ -2,7 +2,7 @@ import React from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 
 // actions
-import {PostReducerActions} from '../../redux/actions/index';
+import {PostReducerActions} from '../../redux/actions/post';
 
 // selectors
 import {getPostIds} from '../../redux/selectors/post';

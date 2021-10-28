@@ -1,8 +1,8 @@
 import {all, spawn} from 'redux-saga/effects';
 
 // sagas
-import {postSaga} from '../../posts/redux/sagas/sagas';
-import {themeSaga} from '../../theme/redux/saga/theme';
+import {postSaga} from '../../posts/redux/sagas/post';
+import {themeSaga} from '../../posts/redux/sagas/theme';
 
 export function* rootSaga() {
   const allSagas = [postSaga, themeSaga];

@@ -1,7 +1,7 @@
 import React from 'react';
 import {View} from 'react-native';
 import {useDispatch} from 'react-redux';
-import {withStyles} from '../../hocs/withStyles';
+import {withStyles} from '../../../common/hocs/withStyles';
 
 // actions
 import {ThemeActions} from '../../redux/actions/theme';

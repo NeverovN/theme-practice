@@ -4,3 +4,7 @@ export const PostActionNames = {
   ERROR: 'post/ERROR',
   SUCCESS: 'post/SUCCESS',
 };
+
+export const THEME_ACTIONS = {
+  SET: 'theme/SET_THEME',
+};
