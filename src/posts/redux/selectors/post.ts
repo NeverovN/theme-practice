@@ -14,3 +14,8 @@ export const getPostById = (state: any, id: IPost['id']): IPost => {
   const root = getRoot(state);
   return root.data.byIds[id];
 };
+
+export const getLoading = (state: any): boolean => {
+  const root = getRoot(state);
+  return root.loading;
+};

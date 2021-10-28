@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList, ListRenderItem} from 'react-native';
+import {FlatList, ListRenderItem, RefreshControl} from 'react-native';
 
 // types
 import {IPost} from '../../types/post';
@@ -10,6 +10,8 @@ import ThemeButton from '../ThemeButton/index';
 
 interface IPostListViewProps {
   data: IPost['id'][];
+  refreshing: boolean;
+  onRefresh(): void;
 }
 
 const renderItem: ListRenderItem<IPost['id']> = ({item}) => {
@@ -22,6 +24,12 @@ const PostListView: React.FC<IPostListViewProps> = props => {
       ListHeaderComponent={ThemeButton}
       data={props.data}
       renderItem={renderItem}
+      refreshControl={
+        <RefreshControl
+          onRefresh={props.onRefresh}
+          refreshing={props.refreshing}
+        />
+      }
     />
   );
 };
